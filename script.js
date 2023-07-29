@@ -1,3 +1,5 @@
+/* Open and close mobile menu */
+
 const menuMobile = document.querySelector(".menu-mobile");
 const body = document.querySelector("body");
 menuMobile.addEventListener("click", () => {
@@ -7,7 +9,7 @@ menuMobile.addEventListener("click", () => {
   body.classList.toggle("menu-nav-active");
 });
 
-/ close mobile menu when a section is selected*/
+/* close mobile menu when a section is selected*/
 
 const navItem = document.querySelectorAll('.nav-item')
 
