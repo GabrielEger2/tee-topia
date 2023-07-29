@@ -89,6 +89,10 @@ html, body{
     font-size: 24px;
 }
 
+#main{
+    margin-left: 300px;
+}
+
 section#home{
     background-image: url("./img/");
     background-repeat: no-repeat;
@@ -152,8 +156,41 @@ i.menu-mobile {
     background-color: #090909;
 }
 
+
+section#about{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    color: white;
+}
+
+#about h2{
+    font-size: 40px;
+    margin: 20px;
+    padding: 0.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#about p{
+    font-size: 18px;
+    margin: 20px;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#about button{
+    font-size: 22px;
+    margin: 20px;
+    padding: 1rem;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
 .footer-style {
-    transform: translateX(150px);
     background-color: #090909;
     color: white;
 }
