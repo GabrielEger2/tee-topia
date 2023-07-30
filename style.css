@@ -94,7 +94,7 @@ html, body{
 }
 
 section#home{
-    background-image: url("./img/");
+    background-image: url("./img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -223,4 +223,56 @@ section#about{
 .footer-style {
     background-color: #090909;
     color: white;
+}
+
+#products h2{
+    font-size: 46px;
+    margin: 10px;
+    padding: 0.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+#products h5{
+    font-size: 22px;
+    margin: 10px;
+    padding: 0.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#products p{
+    font-size: 15px;
+    margin: 10px;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+.carousel-control-prev{
+    margin-left: -8rem;
+    filter: invert(100%);
+}
+  
+.carousel-control-next{
+    margin-right: -8rem;
+    filter: invert(100%);
+}
+  
+.carousel-indicators{
+    margin-bottom: -35px;
+    filter: invert(100%);
+}
+  
+@media (max-width: 1860px){
+    .carousel-control-prev{
+        margin-left: 0;
+        filter: invert(100%);
+    }
+  
+    .carousel-control-next{
+        margin-right: 0;
+        filter: invert(100%);
+    }
 }
